@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var async_storage_1 = require("@callstack/async-storage");
+var async_storage_1 = require("@react-native-community/async-storage");
 var AsyncLocalStorage = {
     getItem: function (key) { return new Promise(function (resolve, reject) {
         if (window.localStorage) {
